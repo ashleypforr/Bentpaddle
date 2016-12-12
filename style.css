@@ -1,0 +1,620 @@
+
+
+#container {
+	width: 1385px;
+	height: 800px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#navigationbar {
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	background: black;
+	top: 0px;
+	left: 0px;
+
+}
+
+.logo {
+	border-radius: 8px;
+	position: relative;
+	left: 75px;
+	top: 50px;
+
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 120px;
+	padding: 0px;
+
+}
+
+li {
+	text-align: center;
+	margin-bottom: 35px;
+
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	font-family: geneva;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+
+
+
+#feature1 {
+	position: absolute;
+	height: 800px;
+	width: 375px;
+	left: 300px;
+	z-index: -2;
+}
+
+#black {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	z-index: 3;
+	
+	
+}
+
+
+#feature1 p {
+	z-index: 3;
+	font-family: futura;
+	font-size: 50pt;
+	top: 20px;
+	left: 80px;
+	position: absolute;
+	color: black;
+	text-align: center;
+	line-height: 95%;
+}
+
+#feature2 {
+	position: absolute;
+	left: 675px;
+	width: 360px;
+	top: 0px;
+	height: 400px;
+	background-color: blue;
+	-webkit-filter: grayscale(100%);filter: grayscale(100%);
+	z-index: 0;
+}
+
+
+#feature2 p  {
+	z-index: 1;
+	font-family: futura;
+	font-size: 40pt;
+	top: 20px;
+	left: 50px;
+	position: absolute;
+	color: black;
+}
+
+#feature3 {
+	position: absolute;
+	left: 1035px;
+	top: 0px;
+	height: 400px;
+	width: 360px;
+	-webkit-filter: grayscale(100%);filter: grayscale(100%);
+}
+
+#feature3 p  {
+	z-index: 1;
+	font-family: futura;
+	font-size: 40pt;
+	top: 20px;
+	left: 50px;
+	position: absolute;
+	color: black;
+}
+
+#feature4 {
+	left: 675px;
+	position: absolute;
+	background-color: green;
+	width: 720px;
+	height: 400px;
+	top: 400px;
+	-webkit-filter: grayscale(100%);filter: grayscale(100%);
+}
+
+#feature4 p  {
+	z-index: 1;
+	font-family: futura;
+	font-size: 40pt;
+	top: 20px;
+	left: 50px;
+	position: absolute;
+	color: black;
+}
+
+
+
+
+
+.seasonal {
+	position: absolute;
+	left: 300px;
+	top: 528px;
+	display: inline-block;
+	z-index: 1;
+	-webkit-filter: grayscale(60%);filter: grayscale(60%);
+	overflow: hidden;
+
+}
+
+
+
+
+
+/* Home page effects */
+
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #42b078;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+
+
+
+/* FLAGSHIP BEER */
+
+
+
+
+
+.hovereffect2 {
+	left: 300px;
+  width: 1085px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect2 .overlay2 {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 40%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect2:hover .overlay2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect2 img {
+	top:-130px;
+	display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect2:hover img {
+
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect2 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  font-family: futura;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect2 a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect2:hover a, .hovereffect2:hover p, .hovereffect2:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+
+
+/* SPECIALTY BEER */
+
+
+
+
+.hovereffect3 {
+	top: -130px;
+	left: 300px;
+  width: 1085px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect3 .overlay3 {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 40%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect3:hover .overlay3 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect3 img {
+	top:-150px;
+	display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect3:hover img {
+
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect3 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  font-family: futura;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect3 a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect3:hover a, .hovereffect3:hover p, .hovereffect3:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+/* SEASONAL BEER */
+
+
+
+
+
+.hovereffect4 {
+	top: -310px;
+	left: 300px;
+  width: 1085px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect4 .overlay4 {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 22%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect4:hover .overlay4 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect4 img {
+	top:-363px;
+	display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect4:hover img {
+
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect4 h2 {
+  top: -30px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  font-family: futura;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect4 a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect4:hover a, .hovereffect4:hover p, .hovereffect4:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+
+
+
+/*BEER CHOICES*/ 
+
+
+
+#beer1 {
+	height: 400px;
+	width: 543px;
+	background-color: #ABABAB;
+	float: left;
+	left: 300px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#beer2 {
+	width: 542px;
+	height: 400px;
+	background-color: #DBDBDB;
+	float: left;
+	left: 300px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+
+#beer3 {
+	width: 542px;
+	height: 400px;
+	background-color: #DBDBDB;
+	float: left;
+	left: 300px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+
+#beer4 {
+	width: 542px;
+	height: 400px;
+	background-color: #ABABAB;
+	float: left;
+	left: 300px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+
+#beerlistbody {
+  position: absolute;
+  left: 300px;
+  background-image: url("hop.jpg");
+  background-size: 50% 100%;
+  background-repeat: repeat-x;
+}
+
+
